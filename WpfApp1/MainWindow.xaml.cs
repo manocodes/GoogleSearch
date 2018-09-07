@@ -35,7 +35,8 @@ namespace WpfApp1
             tbPrevious.Visibility = Visibility.Hidden;
         }
 
-        //Comment by Mano
+        //Comment by Mano - changed by mano
+
 
         private void Previous_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
