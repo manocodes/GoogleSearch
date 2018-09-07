@@ -26,7 +26,7 @@
         </Grid.ColumnDefinitions>
         <TextBox Name="tbSearchTerm" HorizontalAlignment="Left" Height="23" Margin="211,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="263" Grid.ColumnSpan="2" FontSize="14"/>
         <Button Name="btnSearch" Content="Search" Margin="213.2,43,212.2,0" VerticalAlignment="Top" Click="BtnSearch_Click" Grid.Column="1" FontSize="14"/>
-        <ListBox Name="lbSearchResult" HorizontalAlignment="Left" Height="295" Margin="28,131,0,0" VerticalAlignment="Top" Width="737" IsSynchronizedWithCurrentItem="True" ItemTemplate="{StaticResource searchResultTemplate}" Grid.ColumnSpan="2" FontSize="14"></ListBox>
+        <ListBox Name="lbSearchResult" HorizontalAlignment="Left" Height="295" Margin="28,131,0,0" VerticalAlignment="Top" Width="737" IsSynchronizedWithCurrentItem="True" ItemTemplate="{StaticResource searchResultTemplate}" Grid.ColumnSpan="2" FontSize="14" SelectionChanged="lbSearchResult_SelectionChanged"></ListBox>
         <Label Content="Search something" HorizontalAlignment="Left" Margin="211,17,0,0" VerticalAlignment="Top" Width="151" Grid.ColumnSpan="2" FontSize="14"/>
         <TextBlock Name="tbCurrentPage" Grid.Column="1" HorizontalAlignment="Left" Margin="93.2,431,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontSize="14"/>
         <TextBlock Name="tbPrevious" Margin="276,431,448.2,15" Grid.ColumnSpan="2" FontSize="14">
