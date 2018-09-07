@@ -35,6 +35,8 @@ namespace WpfApp1
             tbPrevious.Visibility = Visibility.Hidden;
         }
 
+        //Comment by Mano
+
         private void Previous_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             //Convert the current page text to int
